@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = () => (
   <div>
-    <h2>Welcome</h2>
+    <h2>Welcome to our website</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus
       erat, commodo ac ultricies quis, blandit at erat. In blandit orci massa,
