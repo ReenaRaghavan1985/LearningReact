@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Contact = () => (
+export const News = () => (
   <div>
-    <h2>Contact Us</h2>
+    <h2>News</h2>
     <p></p>
   </div>
 );

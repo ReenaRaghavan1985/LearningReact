@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Contact = () => (
+export const Gallery = () => (
   <div>
-    <h2>Contact Us</h2>
+    <h2>Gallery</h2>
     <p></p>
   </div>
 );

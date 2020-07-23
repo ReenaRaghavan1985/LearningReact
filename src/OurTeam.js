@@ -1,8 +1,8 @@
 import React from "react";
 
-export const About = () => (
+export const OurTeam = () => (
   <div>
-    <h2>About Page</h2>
+    <h2>Our Team</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus
       erat, commodo ac ultricies quis, blandit at erat. In blandit orci massa,
