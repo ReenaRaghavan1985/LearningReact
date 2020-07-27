@@ -5,22 +5,14 @@ export class BootstrapCarousel extends Component {
   render() {
     return (
       <div>
-        <div class="container-fluid">
-          <div className="row title" style={{ marginBottom: "20px" }}>
-            <div class="col-sm-12 btn btn-warning">
-              How To Use Bootstrap Carousel In ReactJS
-            </div>
-          </div>
-        </div>
-
         <div className="container-fluid">
           <Carousel>
             <Carousel.Item style={{ height: "300px" }}>
               <img
                 style={{ height: "300px" }}
                 className="d-block w-100"
-                src={"assets/img/img2.jpg"}
-                alt=""
+                src={require("../assets/img/img1.jpg")}
+                alt="300x100"
               />
 
               <Carousel.Caption>
@@ -32,8 +24,8 @@ export class BootstrapCarousel extends Component {
               <img
                 style={{ height: "300px" }}
                 className="d-block w-100"
-                src={"assets/img/img1.jpg"}
-                alt=""
+                src={require("../assets/img/img2.jpg")}
+                alt="300x200"
               />
 
               <Carousel.Caption>
@@ -45,8 +37,8 @@ export class BootstrapCarousel extends Component {
               <img
                 style={{ height: "300px" }}
                 className="d-block w-100"
-                src={"assets/img/img3.jpg"}
-                alt=""
+                src={require("../assets/img/img3.jpg")}
+                alt="300x300"
               />
 
               <Carousel.Caption>

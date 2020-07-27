@@ -1,5 +1,5 @@
 import React from "react";
-import BootstrapCarousel from "./BootstrapCarousel";
+import BootstrapCarousel from "./components/BootstrapCarousel";
 
 export const Home = () => (
   <div>
